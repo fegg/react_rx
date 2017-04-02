@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "lulin",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@reactivex/rxjs": "^5.2.1-smooth",
     "@types/react": "0.14.57",
