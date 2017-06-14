@@ -29,7 +29,7 @@ class TokenList extends React.Component<any, ITokenListState> {
     }
 
     handleAddToken(e: React.MouseEvent<HTMLButtonElement>) {
-        TokenListService.put('lulin');
+        TokenListService.post('lulin');
     }
 
     handleRemoveToken(e: React.MouseEvent<HTMLButtonElement>) {

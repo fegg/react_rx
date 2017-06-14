@@ -6,7 +6,7 @@ let id: number = 1;
 let tokens$ = new Subject<IToken[]>();
 
 export let TokenListService = {
-    put(name : string): void {
+    post(name : string): void {
         tokens.push({
             id: id++,
             name
